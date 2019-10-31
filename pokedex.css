@@ -86,7 +86,7 @@ main{
 
 .pokebox{
     height: 180px;
-    width: 350px;
+    width: 325px;
     padding: 5px;
     margin: 5px;
     background-color: slategrey;
@@ -97,7 +97,8 @@ main{
 
 .poke-desc{
     text-align: center;
-    font-size: 15px;
+    font-size: 14px;
+    width: 150px;
     padding: 3px;
 }
 
@@ -127,5 +128,9 @@ main{
 
     a{
         margin: 5px;
+    }
+
+    .poke-desc{
+        font-size: 18px;
     }
 }

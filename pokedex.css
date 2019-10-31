@@ -1,0 +1,131 @@
+html{
+    margin: 0;
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    font-family: 'Share Tech Mono', monospace;
+    background-color: bisque;
+}
+
+#logo{
+    height: 50px;
+    border-radius: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    height: 65px;
+    background-color: slategrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+header > #pokedex-name{
+    display: none;
+    font-family: 'Bowlby One SC', cursive;
+}
+
+nav{
+    background-color: lightcoral;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+}
+
+input{
+    height: 30px;
+    width: 175px;
+    font-size: 15px;
+    border-radius: 3px;
+    border: 1px solid black;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+select{
+    height: 34px;
+    width: 175px;
+    font-size: 15px;
+    border-radius: 3px;
+    border: 1px solid black;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.param{
+    padding: 5px;
+    height: 45px;
+    background-color: lightgrey;
+    border-bottom: 2px solid slategrey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.poke-photo{
+    height: 150px;
+    width: 150px;
+    margin-left: 0;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.pokebox{
+    height: 180px;
+    width: 350px;
+    padding: 5px;
+    margin: 5px;
+    background-color: slategrey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.poke-desc{
+    text-align: center;
+    font-size: 15px;
+    padding: 3px;
+}
+
+@media screen and (min-width: 900px){
+    header{
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    header > #pokedex-name{
+        display: contents;
+    }
+
+    main{
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+    .pokebox{
+        margin: 10px;
+        width: 450px;
+    }
+
+    nav{
+        justify-content: flex-start;
+    }
+
+    a{
+        margin: 5px;
+    }
+}

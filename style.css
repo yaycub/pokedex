@@ -1,0 +1,28 @@
+html{
+    margin: 0;
+    background-color: slategrey;
+}
+
+body{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    width: 350px;
+}
+
+h1{
+    font-family: 'Bowlby One SC', cursive;
+}
+
+#logo{
+    height: 350px;
+    border-radius: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}

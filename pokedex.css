@@ -76,7 +76,7 @@ select{
     margin-left: 0;
 }
 
-.card-display{
+.pokebox{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -84,7 +84,7 @@ select{
     padding: 10px;
 }
 
-.pokebox{
+.poke-box{
     height: 180px;
     width: 325px;
     padding: 5px;
@@ -112,12 +112,12 @@ select{
         display: contents;
     }
 
-    .card-display{
+    .pokebox{
         flex-flow: row wrap;
         justify-content: space-around;
     }
 
-    .pokebox{
+    .poke-box{
         margin: 10px;
         width: 450px;
     }

@@ -2,8 +2,10 @@ import Component from '../Component.js';
 
 class PokeCard extends Component {
     renderHTML(){
+        const poke = this.props.poke;
+
         return `
-            <div class="pokebox">
+            <div class="poke-box">
                 <figure>
                     <img src="${poke.url_image}" class="poke-photo">
                 </figure>

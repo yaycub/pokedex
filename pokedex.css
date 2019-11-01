@@ -76,7 +76,7 @@ select{
     margin-left: 0;
 }
 
-main{
+.card-display{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -112,7 +112,7 @@ main{
         display: contents;
     }
 
-    main{
+    .card-display{
         flex-flow: row wrap;
         justify-content: space-around;
     }

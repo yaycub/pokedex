@@ -1,28 +1,85 @@
 html{
     margin: 0;
-    background-color: slategrey;
+    background-color: bisque;
 }
 
 body{
-    margin: 0 auto;
+    margin: 0;
+}
+
+#logo{
+    height: 50px;
+    border-radius: 100%;
+}
+
+header{
+    height: 65px;
+    background-color: slategrey;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
-    width: 350px;
+    padding: 5px;
+}
+
+header > #pokedex-name{
+    display: none;
+    font-family: 'Bowlby One SC', cursive;
+}
+
+nav{
+    background-color: lightcoral;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+input{
+    height: 30px;
+    width: 175px;
+    font-size: 15px;
+    border-radius: 3px;
+    border: 1px solid black;
+    font-family: 'Share Tech Mono', monospace;
 }
 
 h1{
     font-family: 'Bowlby One SC', cursive;
 }
 
-#logo{
-    height: 350px;
-    border-radius: 100%;
+#logo2{
+    height: 300px;
 }
 
 a{
     text-decoration: none;
     color: black;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+@media screen and (min-width: 900px){
+    header{
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    header > #pokedex-name{
+        display: contents;
+    }
+
+    nav{
+        justify-content: flex-start;
+    }
+
+    a{
+        margin: 5px;
+    }
 }

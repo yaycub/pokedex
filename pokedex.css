@@ -19,6 +19,12 @@ a{
     color: black;
 }
 
+.paging{
+    margin: 5px;
+}
+
+
+
 header{
     height: 65px;
     background-color: slategrey;
@@ -86,7 +92,7 @@ select{
 
 .poke-box{
     height: 180px;
-    width: 325px;
+    width: 340px;
     padding: 5px;
     margin: 5px;
     background-color: slategrey;
@@ -95,11 +101,15 @@ select{
     align-items: center;
 }
 
+#poke-name{
+    font-size: 18px;
+}
+
 .poke-desc{
     text-align: center;
     font-size: 14px;
-    width: 150px;
-    padding: 10px;
+    width: 300px;
+    padding: 20px;
 }
 
 @media screen and (min-width: 900px){

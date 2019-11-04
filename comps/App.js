@@ -22,9 +22,18 @@ class App extends Component {
         const pokeList = new PokeList({ poke: [] });
         cardSection.appendChild(pokeList.renderDOM());
 
-        const response = await getPoke();
-        const poke = response.results;
-        pokeList.update({ poke: poke });
+        async function loadPokes() {
+            const response = await getPoke();
+            const poke = response.results;
+            pokeList.update({ poke: poke });
+        
+        }
+
+        loadPokes();
+
+        window.addEventListener('hashchange', () => {
+            loadPokes();
+        });
     }
 
     renderHTML() {

@@ -21,6 +21,7 @@ a{
 
 .paging{
     margin: 5px;
+    text-align: center;
 }
 
 
@@ -105,8 +106,8 @@ input, select, #search-button{
 }
 
 .poke-box{
-    height: 180px;
-    width: 340px;
+    height: 185px;
+    width: 355px;
     padding: 5px;
     margin: 5px;
     background-color: slategrey;
@@ -121,7 +122,7 @@ input, select, #search-button{
 
 .poke-desc{
     text-align: center;
-    font-size: 14px;
+    font-size: 13px;
     width: 300px;
     padding: 20px;
 }
@@ -143,7 +144,8 @@ input, select, #search-button{
 
     .poke-box{
         margin: 10px;
-        width: 450px;
+        width: 375px;
+        height: 200px;
     }
 
     nav{
@@ -155,11 +157,15 @@ input, select, #search-button{
     }
 
     .poke-desc{
-        font-size: 18px;
+        font-size: 13px;
     }
 
     .param{
         justify-content: flex-start;
+    }
+
+    .paging{
+        text-align: right;
     }
 
     

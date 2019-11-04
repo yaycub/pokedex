@@ -26,7 +26,7 @@ class SearchSort extends Component {
                 <option name="type" value="steel">Steel Type</option>
                 <option name="type" value="water">Water Type</option>
             </select>
-            <button>Search</button>
+            <button id="search-button">Search</button>
         </form>
         `;
     }

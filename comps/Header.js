@@ -6,7 +6,7 @@ class Header extends Component{
             <section class="header">
                 <header>
                     <img src="./assets/pokeball.jpg" id="logo">
-                    <h1 id="pokedex-name">Pokedex by Oak</h1>
+                    <h1 id="pokedex-name">Kiran's Pokedex</h1>
                 </header>
 
                 <nav>

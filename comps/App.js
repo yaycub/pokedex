@@ -25,7 +25,9 @@ class App extends Component {
         async function loadPokes() {
             const response = await getPoke();
             const poke = response.results;
+            const count = response.count;
             pokeList.update({ poke: poke });
+            paging.update({ count: count });
         
         }
 

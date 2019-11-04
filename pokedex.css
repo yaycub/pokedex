@@ -76,13 +76,17 @@ select{
     font-family: 'Share Tech Mono', monospace;
 }
 
+input, select, #search-button{
+    margin: 2px;
+}
+
 .param{
     padding: 5px;
     height: 45px;
     background-color: lightgrey;
     border-bottom: 2px solid slategrey;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -158,7 +162,5 @@ select{
         justify-content: flex-start;
     }
 
-    input, select, #search-button{
-        margin: 2px;
-    }
+    
 }

@@ -33,7 +33,7 @@ class SearchSort extends Component {
 
     onRender(form) {
         const searchInput = form.querySelector('input[name=search]');
-        const typeSelect = form.querySelector('option');
+        const typeSelect = form.querySelectorAll('option');
 
         function updateControls() {
             const queryString = window.location.hash.slice(1);

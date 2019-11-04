@@ -18,7 +18,7 @@ class Paging extends Component {
 
         if (!totalResults) {
             return /*html*/`
-                <p class="paging">No results, try another search</p>
+                <p class="paging">Nothing to catch here! Try Again!</p>
             `;
         }
 
